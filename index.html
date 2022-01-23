@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kwangya University</title>
+
+    <!-- ===== ICON ===== -->
+    <link rel="icon" type="image/png" href="./img/icon.svg">
+
+    <!-- ===== BOX ICONS ===== -->
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- ===== GOOGLE FONTS ===== -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Acme&family=Dongle:wght@300;400;700&family=Outfit:wght@100;200;300;400;500;600;700;800;900&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Goblin+One&family=Noto+Serif+Display:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Quicksand:wght@300;400;500;600;700&family=Ranchers&family=Slackey&family=Syne:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- ===== CSS ===== -->
+    <link rel="stylesheet" href="css\nav-styles.css">
+    <link rel="stylesheet" href="css\styles.css">
+</head>
+
+<body>
+    <div class="big-wrapper light">
+        <header>
+            <div class="nav-container">
+                <div class="logo">
+                    <a href="buyer-home.html"><img src="img\logo.svg" class="header-logo"></a>
+                    <h3>Kwangya University</h3>
+                </div>
+
+                <div class="links">
+                    <ul>
+                        <li><a href="#">Student Log In</a></li>
+                        <li><a href="#">Admin Log In</a></li>
+                    </ul>
+                </div>
+
+                <div class="overlay"></div>
+
+                <div class="hamburger-menu">
+                    <div class="bar"></div>
+                </div>
+            </div>
+        </header>
+    </div>
+
+    <section class="splash-area">
+        <div class="splash-container">
+            <div class="left-area">
+                <div class="left-area-container">
+                    <div class="title" id="title">
+                        <h1>All of your information, <br> in a safe place!</h1>
+                    </div>
+
+                    <div class="buttons">
+                        <a href="#" class="btn" id="btn">Student</a>
+                        <a href="#" class="btn" id="btn">Admin</a>    
+                    </div>
+                </div>
+            </div>
+
+            <div class="right-area">
+                <img src="img\splash-img.svg" class="splash move" data-speed="2" id="splash">
+            </div>
+        </div>
+    </section>
+
+    <!--===== GSAP =====-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+
+    <!-- ===== JS ===== -->
+    <script src="js\nav-script.js"></script>
+    <script src="js\landing-page.js"></script>
+</body>
+
+</html>
